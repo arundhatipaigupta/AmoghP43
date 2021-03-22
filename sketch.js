@@ -16,6 +16,11 @@ function setup() {
 
 function draw() {
   background(255,255,255);  
+  
+   //Translation and rotation 
+    translate(200,200)
+    rotate(-90)
+  
   push();
   rotate(scAngle);
 stroke(255,0,0);
